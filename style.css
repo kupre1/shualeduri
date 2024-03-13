@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #eeeefb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mtavari-div {
+  width: 736px;
+  height: 512px;
+  border-radius: 32px;
+  background-color: white;
+  border: 1px solid white;
+  display: flex;
+}
+
+.blue-div {
+  width: 368px;
+  height: 512px;
+  border-radius: 32px;
+  background: rgb(105, 67, 255);
+  background: radial-gradient(
+    circle,
+    rgba(105, 67, 255, 1) 0%,
+    rgba(89, 61, 249, 1) 35%,
+    rgba(47, 44, 233, 1) 100%
+  );
+  color: white;
+  font-family: Hanken Grotesk;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue-p1 {
+  width: 125px;
+  height: 31px;
+  color: #cac9ff;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 38px 124px 35px 119px;
+}
+
+.circle-div2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgb(77, 33, 201);
+  background: radial-gradient(
+    circle,
+    rgba(77, 33, 201, 1) 0%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-1 {
+  width: 81px;
+  height: 72px;
+  font-size: 72px;
+  font-weight: 800;
+
+  align-items: center;
+}
+
+.circle-2 {
+  width: 52px;
+  height: 23px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #cac9ff;
+}
+
+.blue-div3 {
+  width: 260px;
+  height: 134px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 28px;
+}
+
+.div3-p1 {
+  width: 83px;
+  height: 42px;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.div3-p2 {
+  width: 260px;
+  height: 69px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #cac9ff;
+  text-align: center;
+  margin-top: 14px;
+}
+
+.white-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 40px;
+}
+
+.right {
+  width: 104px;
+  height: 31px;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Hanken Grotesk;
+  color: #303b59;
+}
+
+.white-div2 {
+  width: 288px;
+  height: 272px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.flash {
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: #fff6f6;
+  font-family: Hanken Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flash-div1 {
+  color: #ff5555;
+  margin-left: 16px;
+}
+
+.flash-span2 {
+  width: 21px;
+  height: 23px;
+
+  color: #303b59;
+}
+
+.flash-span3 {
+  color: gray;
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+}
+
+.flash-div2 {
+  margin-right: 16px;
+}
+
+.brain {
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: #fffbf4;
+  font-family: Hanken Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brain-div1 {
+  color: #ffb21e;
+  margin-left: 16px;
+}
+
+.brain-span2 {
+  width: 21px;
+  height: 23px;
+
+  color: #303b59;
+}
+
+.brain-span3 {
+  color: gray;
+}
+
+.brain-div2 {
+  margin-right: 16px;
+}
+
+.chat {
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: #f2fcf9;
+  font-family: Hanken Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-div1 {
+  color: #2dc7a3;
+  margin-left: 16px;
+}
+
+.chat-span2 {
+  width: 21px;
+  height: 23px;
+
+  color: #303b59;
+}
+
+.chat-span3 {
+  color: gray;
+}
+
+.chat-div2 {
+  margin-right: 16px;
+}
+
+.eye {
+  width: 288px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: #f3f4fd;
+  font-family: Hanken Grotesk;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eye-div1 {
+  color: #1125d6;
+  margin-left: 16px;
+}
+
+.eye-span2 {
+  width: 21px;
+  height: 23px;
+
+  color: #303b59;
+}
+
+.eye-span3 {
+  color: gray;
+}
+
+.eye-div2 {
+  margin-right: 16px;
+}
+
+.button {
+  width: 288px;
+  height: 56px;
+  border-radius: 128px;
+  background-color: #303b59;
+}
+
+.button-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Hanken Grotesk;
+}
